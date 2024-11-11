@@ -1,5 +1,9 @@
 package ar.edu.ies6.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
+
 public class Materia {
 	//atributos
 	

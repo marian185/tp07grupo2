@@ -3,16 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>MATERIAS</title>
-
+</head>
 <body>
+<h1>bienvenidos a materias</h1>
+<p>prueba de parrafo</p>
+<form data-th-objet="${alumno}"></form>form>
 <label> NOMBRE </label>
-    <input type="text"></input>
+    <input type="text" data-th-text="${materia.nombre}"></input>
 <label> CODIGO </label>
-<input type="text"></input>
+<input type="text" data-th-text="${materia.codigo}"><input>
 <label> CALIFICACION</label>
-<input type="text"></input>
+<input type="text"data-th-text="${materia.calificacion}"></input>
 <label> PROFESOR</label>
-<input type="text"></input>
+<input type="text"data-th-text="${materia.profesor}"></input>
 <h1></h1>
 </body>
 </html>
